@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+</head>
+<body>
+<header>
+    <!--    class container để căn chỉnh toàn bộ những thẻ con bên trong thẻ đặt trong class, ở đây dùng mã id là section từ  đến 4 để-->
+    <!--    chia layout vì em nói chỉ cần 1 page nên anh sẽ làm như thế này cho dễ, -->
+    <!--    tác dụng của id section này là để khi click vào sẽ di chuyển đến điểm đích (trong 1 page) -->
+    <!--    btn  để set giao diện cho thẻ a đỡ xấu, mt-3 có nghĩa là margin top là cách phần trên 3em :V-->
+    <!--    row và col ở đây để chia đều các thẻ bên ngoài màn hình và làm nó thành hàng ngang-->
+    <div class="container">
+        <ul class="row row-cols-7 text-center">
+            <li class="col"><a href="#section1" class="btn mt-3"><h5>Phở</h5></a></li>
+            <li class="col"><a href="#section2" class="btn mt-3"><h5>Tin Tức</h5></a></li>
+            <li class="col"><a href="#section3" class="btn mt-3"><h5>Chế Biến</h5></a></li>
+            <li class="col"><a href="#section4" class="btn mt-3"><h5>Biến tấu</h5></a></li>
+            <li class="col"><a href="#section5" class="btn mt-3"><h5>Thực Đơn</h5></a></li>
+            <li class="col"><a href="#section6" class="btn mt-3"><h5>Địa chỉ</h5></a></li>
+            <li class="col"><a href="/user.html" class="btn mt-3"><h5>Người Dùng</h5></a></li>
+        </ul>
+    </div>
+</header>
+
+<!--content-->
+<div class="mt-2">
+    <div id="section1">
+        <h1><i>Phở </i></h1>
+        <br>
+        <div class=" row g-0 ">
+            <!--            ở phần này anh chia ra 2 phần là text và image, em nên tìm kiếm row trong getbootstrap để rõ hơn cách chia , sau đó là mình căn chỉnh cho phù hợp-->
+            <div class="col-sm-6 col-md-8">
+                <div class="overflow-y-auto mt-3" style="margin-left: 8em;width: 70%;height: 90%">
+                    <p>
+                        <b>Phở</b> là một món ăn truyền thống của Việt Nam và được xem là một trong những món ăn tiêu
+                        biểu cho
+                        nền ẩm thực Việt Nam.
+                    </p>
+                    <p>
+                        Thành phần chính của phở là bánh phở và nước dùng cùng với thịt bò hoặc thịt gà cắt lát mỏng.
+                        Thịt bò thích hợp nhất để nấu phở là thịt, xương từ các giống bò ta (bò nội, bò vàng). Ngoài ra
+                        còn kèm theo các gia vị như: tương, tiêu, chanh, nước mắm, ớt, vân vân. Những gia vị này được
+                        thêm vào tùy theo khẩu vị của người dùng. Phở thông thường được dùng để làm món điểm tâm buổi
+                        sáng hoặc lót dạ buổi đêm; nhưng ở các thành phố lớn, món ăn này có thể được thưởng thức cả
+                        ngày. Tại các tỉnh phía Nam Việt Nam và một số vùng miền khác, phở được bày kèm với đĩa rau thơm
+                        như hành, giá và những lá cây rau mùi, rau húng, trong đó ngò gai là loại lá đặc trưng của phở;
+                        tuy nhiên tại Hà Nội thông thường sẽ không có đĩa rau sống này. Phở thường là phở bò hay phở gà,
+                        nhưng đôi khi cũng có những biến thể khác, đặc biệt là phở sốt vang, phở khô, phở xào, phở chua,
+                        phở vịt ở Cao Bằng, và phở thịt quay ở các tỉnh miền núi phía Bắc.
+                    </p>
+                    <p>
+                        Nước dùng cho nồi phở thường là nước dùng trong được ninh từ xương bò (hoặc xương lợn), kèm theo
+                        nhiều loại gia vị bao gồm quế, hồi, gừng nướng, thảo quả, sá sùng, đinh hương, hạt mùi, hành khô
+                        nướng. Thịt dùng cho món phở là thịt bò (với đủ loại thịt bắp, nạm, gầu được làm tái, hay chín
+                        hẳn) hoặc thịt gà (gà ta già luộc, xé thịt cho thịt ngọt đậm đà). "Bánh phở" theo truyền thống
+                        được làm từ bột gạo, tráng thành tấm mỏng rồi cắt thành sợi. Phở luôn được thưởng thức khi còn
+                        nóng hổi. Theo đó, để có một bát phở ngon và đậm vị, điều này còn phụ thuộc rất nhiều vào kĩ
+                        năng của người nấu, trong đó quan trọng nhất đó chính là nồi nước dùng.
+                    </p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4">
+                <img src="static/images/pho1.jpg" alt="" class="c">
+            </div>
+        </div>
+    </div>
+    <!--    phần này cũng giống phần trên-->
+    <div id="section2">
+        <h1 class="mt-2 "><i>Lịch Sử Hình Thành</i></h1>
+        <br>
+        <div class="row g-0" style="margin-left: 10em">
+            <div class="col-6 col-md-4">
+                <img src="static/images/pho2.jpeg" alt="" class="img1">
+                <img src="static/images/pho3.jpg" alt="" class="img2">
+                <img src="static/images/pho4.jpg" alt="" class="img3">
+            </div>
+            <div class="col-sm-6 col-md-8" style="margin-top: 10em;">
+                <div class="overflow-y-auto mt-3" style="margin-left: 7em;width: 70%;height: 90%">
+                    <p>Phở như ngày nay được cho là đã ra đời và định hình vào những năm đầu thế kỷ 20. Hà Nội hay Nam
+                        Định là địa phương thường được cho là xuất xứ của phở. Ở Nam Định, phở có nguồn gốc từ làng Vân
+                        Cù (xã Đồng Sơn, Nam Trực), nổi tiếng với dòng họ Cồ đã mang nghề nấu phở gia truyền đi khắp mọi
+                        nơi sinh cơ lập nghiệp. Món phở được tin là bắt đầu phổ biến trong bối cảnh hình thành Nhà máy
+                        dệt Nam Định. Phở cũng xuất hiện ở Hà Nội từ những năm đầu thế kỷ 20, đây cũng được biết đến
+                        là nơi đã làm cho món ăn này trở nên nổi tiếng. Tuy nhiên một số nhà văn, nhà thơ và nhà sử học
+                        đều nghiên cứu và thống nhất cho rằng phở xuất hiện đầu tiên tại Ô Quan Chưởng - Hà Nội bởi thời
+                        gian Pháp thuộc địa, Ô Quan Chưởng là nơi tập kết xương bò bỏ đi không dùng tới, người dân đã
+                        dùng để ninh và tạo nên món phở từ đó.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <h1><i>Chế biến </i></h1>
+        <br>
+        <div class=" row g-0 ">
+            <!--            ở phần này anh chia ra 2 phần là text và image, em nên tìm kiếm row trong getbootstrap để rõ hơn cách chia , sau đó là mình căn chỉnh cho phù hợp-->
+            <div class="col-sm-6 col-md-8">
+                <div class="overflow-y-auto mt-3" style="margin-left: 8em;width: 70%;height: 90%">
+                    <b>Nấu nước dùng</b>
+                    <p>
+                        Trong món phở, công đoạn chế biến nước dùng (hay còn gọi là nước lèo) là công đoạn quan trọng
+                        nhất.
+                    </p>
+                    <p>
+                        Nước dùng của phở truyền thống là phải được ninh từ xương ống của bò cùng với một số gia vị.
+                        Xương phải được rửa sạch, cạo sạch hết thịt bám vào xương cho vào nồi đun với nước lạnh. Nước
+                        luộc xương lần đầu phải đổ đi để nước dùng khỏi bị nhiễm mùi hôi của xương bò, nước luộc lần sau
+                        mới dùng làm nước lèo. Gừng và củ hành đã nướng đồng thời cũng được cho vào. Lửa đun được bật
+                        lớn để nước sôi lên, khi nước đã sôi thì phải giảm bớt lửa và bắt đầu vớt bọt. Khi đã vớt hết
+                        bọt, cho thêm một ít nước lạnh và lại đợi nước tiếp tục sôi tiếp để vớt bọt... Cứ làm như vậy
+                        liên tục cho đến khi nước trong và không còn cặn trong bọt nữa. Sau đó, cho một ít gia vị vào và
+                        điều chỉnh độ lửa sao cho nồi nước chỉ sôi lăn tăn để giữ cho nước khỏi bị đục và chất ngọt từ
+                        xương có đủ thời gian để tan vào nước lèo. Hương vị thơm ngon của nước dùng chủ yếu do các loại
+                        gia vị quyết định.
+                    </p>
+                    <p>
+                        Tuy nhiên, công thức của từng loại nước dùng cụ thể cho từng hiệu phở được giữ khá bí mật. Mặc
+                        dù vậy, có thể nhận thấy các loại gia vị này bao gồm thảo quả, gừng, hoa hồi, đinh hương, hạt
+                        ngò gai, quế thanh, hành khô, tôm nõn, và theo truyền thống, không thể thiếu một cái đuôi bò.
+                    </p>
+                    <p>Nguyên thủy, để tăng vị ngọt rất giàu amino acid của nước phở, theo truyền thống, khi chưa có bột
+                        ngọt (mì chính), người xưa dùng tôm he. Cách nấu nước dùng ngày nay đã có những sự khác biệt
+                        tùy địa phương, như miền Bắc thường dùng nhiều mì chính (nhất là trong thời bao cấp, có cả phở
+                        "không người lái" - không thịt), còn miền Nam nhiều nơi nấu nước dùng bằng xương gà và thêm khô
+                        mực.</p>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mt-5" style="margin-left: -5em">
+                <img src="https://vcdn-dulich.vnecdn.net/2023/07/31/phoblackpink-jpeg-4807-1690787851.jpg"
+                     style="width: 500px" class="rounded" alt="">
+            </div>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="container">
+            <h1 class="mt-2 "><i>Biến Tấu</i></h1>
+            <br>
+            <div class="row row-cols-2 ">
+                <div class="col overflow-y-auto" style="width: 45%;height: 550px">
+                    <b>Phở Hà Nội</b><br>
+                    <p>Ở Hà Nội, phở là một món ăn đặc biệt. Phở được dùng riêng như là một món ăn sáng, trưa hoặc tối.
+                        Nước dùng của phở được làm từ nước ninh của xương bò: xương cục, xương ống và xương vè. Thịt
+                        dùng cho món phở có thể là bò, hoặc gà. Bánh phở phải mỏng và dai mềm, gia vị của phở là hành
+                        lá, hạt tiêu, giấm ớt, lát chanh thái.</p>
+                    <p>Từ thời Pháp thuộc, phở Hà Nội xuất hiện đầu tiên dưới hình thức "phở gánh". Đó là những người
+                        bán phở dạo. Trên đôi quang gánh của họ, một bên là thùng hàng tự chế có đủ nguyên liệu để chế
+                        biến món phở và bát, đĩa, đũa, thìa; bên kia là nồi nước dùng đặt trên một bếp than. Trước năm
+                        1980, những gánh phở như vậy đã đi khắp các hàng cùng ngõ hẻm của Hà Nội với những tiếng rao
+                        quen thuộc của văn hóa ẩm thực về đêm của Hà Thành. Ngày nay, khi xã hội phát triển, quán ăn
+                        nhiều lên thì "phở gánh" ngày càng ít xuất hiện. Trong số đó có Phở bưng Hàng Trống là vẫn còn
+                        nổi tiếng.</p>
+                    <p>Từ giữa những năm 1960 đến trước những năm 1990 của thế kỷ 20, vì nhiều lý do nhất là khâu quản
+                        lý hành chính bao cấp về lương thực, thực phẩm, tại Hà Nội và nhiều tỉnh miền Bắc xuất hiện "phở
+                        không người lái" (loại phở chỉ chan nước dùng, không có thịt) trong các cửa hàng mậu dịch quốc
+                        doanh. Chất lượng phở quốc doanh ở các cửa hàng này hoàn toàn tùy thuộc vào tay nghề hạn chế của
+                        các nhân viên không chuyên nhưng có rất nhiều sáng kiến. Họ biến tấu các loại gia vị, cách nấu
+                        nước dùng theo những gì họ có, họ kiếm được trong hoàn cảnh thời chiến thiếu thốn đủ thứ. Một
+                        "sáng kiến" của thời kỳ này là phở "không người lái" ăn với bánh mì hoặc cơm nguội.</p>
+                    <p>
+                        Cũng từ thời bao cấp, ở Hà Nội, người ta thường có thói quen cho thêm nhiều mì chính vào nước
+                        dùng. Phở Hà Nội cũng được ăn kèm với những miếng quẩy nhỏ, nhưng đã mất đi trong thập kỷ 60 tới
+                        giữa thập kỷ 80 khi giai đoạn khó khăn. Cùng với thời đổi mới từ thập niên 90, phở đã phong phú
+                        hơn và quẩy đã trở lại trong bát phở Hà Nội.
+                    </p>
+                    <p>
+                        Hàng phở đầu tiên của người Việt ở Hà Nội từ hàng gánh chuyển sang bán trong cửa hàng được cho
+                        là Phở Cát Tường (phố Cầu Gỗ) từ đầu thế kỉ XX. Ở Hà Nội ngày nay có nhiều cửa hàng phở nổi
+                        tiếng đã lưu truyền qua hai đến ba thế hệ. Các thương hiệu phở gia truyền nổi tiếng được nhiều
+                        người biết đến có thể kể như: Phở Bát Đàn, Phở mặn Gầm Cầu, Phở Sướng, Phở Vui, Phở Nhớ, phở
+                        Thìn Bờ Hồ, phở Thìn Lò Đúc. Nhiều hàng phở treo biển "Phở gia truyền Nam Định", đặc
+                        biệt với những người thuộc dòng họ Cồ cũng góp phần không nhỏ vào danh sách các hàng phở nổi
+                        tiếng ở Hà Nội như Phở Cụ Chiêu - Hàng Đồng, Phở Cồ Thưởng - Thái Thịnh, Phở Cồ Cử - Thụy Khuê.
+                        Quán phở Nam Định ở Hà Nội thường tương đối rộng rãi, bán đủ các biến thể phở bò (phở nước, phở
+                        xào, phở trộn, phở tái lăn), lại thêm cơm rang, mì xào.
+                    </p>
+
+                </div>
+                <div class="col overflow-y-auto" style="margin-left: 7em;width: 45%;height: 550px">
+                    <b>Phở bò Nam Định</b><br>
+                    <p>Phở bò Nam Định là một món ăn phổ biến của Nam Định, phở Nam Định cũng có những đặc điểm chung
+                        như phở của các vùng khác là gồm bánh phở, nước phở, thịt bò hoặc thịt gà, và một số gia vị kèm
+                        theo, nhưng lại mang cái khác toàn diện mà khó có thể nhầm lẫn được. Bánh phở Nam Định là loại
+                        đặc biệt có sợi nhỏ ngon và mềm, khác với sợi bánh của vùng khác. Thịt bò được thái mỏng đập
+                        dập, nhúng và vớt trong khoảng thời gian phù hợp nên ăn mềm mà vẫn giữ được độ tươi ngon và dinh
+                        dưỡng của thịt... Và nếu nói đến nước thì thường mang tính "gia truyền". Những người thợ làm phở
+                        thường giấu kín bí quyết pha chế nước phở của mình và chỉ truyền cho thế hệ sau trong gia đình
+                        mà thôi.</p>
+                    <p>Phở gia truyền ở Nam Định chủ yếu có nguồn gốc từ Hoa kiều ở làng Giao Cù và từ họ Cồ ở làng
+                        Vân Cù, xã Đồng Sơn, (huyện Nam Trực). Sau đó được truyền ra các làng bên cạnh nhưng đã được
+                        biến chế, không còn mang nét nguyên vẹn như xưa và thêm một số phụ gia. Vào thập niên 50,
+                        người Nam Định đã mang món phở ra Hà Nội và bán theo xe đẩy. Từ giữa những năm 60 đến trước
+                        những năm 90 của thế kỷ 20, vì nhiều lý do nhất là khâu quản lý hành chính bao cấp về lương
+                        thực, thực phẩm, phở Nam Định vắng bóng ở những địa phương khác, nhưng từ năm 90 trở lại đây,
+                        Phở Nam Định phục hồi trở lại và ngày càng phát triển mạnh. Hiện nay dân làng thuộc làng
+                        Vân Cù, Giao Cù và các làng lân cận đi khắp nơi từ Bắc vào Nam mở các quán phở đế kiếm kế sinh
+                        nhai và gìn giữ một món ăn ngon người Việt.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="section5">
+        <!--        ở cái này dùng thẻ card nhé, anh thấy cái viền thẻ card xấu quá nên đã xóa nó đi rồi-->
+        <!--        border: 0 là đặt viền của thẻ đó = 0 nhé-->
+        <h1 class="mt-4"><i>Thực Đơn</i></h1>
+        <div class="container mt-5">
+            <div class="row row-cols-3" style="margin-left: 5em">
+                <div class="col text-center">
+                    <div class="card" style="width: 18rem;border: 0">
+                        <img src="static/images/tailan.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Phở Tái Lăn Truyền Thống</b></p>
+                            <button class="card-text bg-dark text-light rounded"
+                                    onclick="document.getElementById('id01').style.display='block'"><b>60.000 – 70.000
+                                đ</b></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center align-items-center">
+                    <div class="card" style="width: 18rem;border: 0">
+                        <img src="static/images/namgau.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Phở chín: Nạm/ Gầu</b></p>
+                            <button class="card-text bg-dark text-light rounded"
+                                    onclick="document.getElementById('id01').style.display='block'"><b>60.000 – 70.000
+                                đ</b></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="card " style="width: 18rem;border: 0">
+                        <img src="static/images/dacbiet.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text"><b>Phở Đặc Biệt</b></p>
+                            <button class="card-text bg-dark text-light rounded"
+                                    onclick="document.getElementById('id01').style.display='block'"><b>80.000 – 100.000
+                                đ</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="id01" class="modal">
+
+                <form class="modal-content animate w-50" action="" method="post">
+
+
+                    <div class="container">
+
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleInputEmail1"
+                                   aria-describedby="emailHelp" placeholder="Địa chỉ">
+                        </div>
+                        <div class="mb-3">
+
+                            <div class="row row-cols-4 text-center ">
+                                <input type="button" onclick="quantityMinus()" value="-" class="col"
+                                       style="border: 0;height:2em;width: 2em;background-color: white;font-size: 20px">
+                                <input type="number" class="form-control col" id="quantity" min="0" value="1"
+                                       placeholder=""
+                                       style="width: 10%"
+                                >
+                                <input type="button" onclick="quantityPlus()" class="col" value="+"
+                                       style="border: 0;width: 2em;height:2em;background-color: white;font-size: 20px">
+
+                                <input type="text" style="margin-left: 3em;width: 60%" class="form-control" id="ly"
+                                       aria-describedby="emailHelp" placeholder="Lưu ý cho người bán">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+
+                        </div>
+                        <button type="submit">Đồng ý</button>
+                    </div>
+
+                    <div class="container text-center" style="background-color:#f1f1f1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+                                class="cancelbtn">Cancel
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <div id="section6">
+        <h1><i>Địa Chỉ</i></h1>
+        <div style="margin-top: 4em" class="container">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.7725220323982!2d105.7894674749425!3d21.041786080610844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab742f24e605%3A0x5f255a76f1502a83!2zUGjhu58gVGjDrG4gMTMgTMOyIMSQw7pjIFTDtCBIaeG7h3UgQ-G6p3UgR2nhuqV5!5e0!3m2!1svi!2s!4v1696003121503!5m2!1svi!2s"
+                    width="100%" height="550px" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        </div>
+    </div>
+</div>
+</div>
+<footer class=" text-center text-lg-start ">
+    <!--    anh để nút chỉnh giao diện sáng tối nha, cái này nếu học bình thường js thì chắc cũng phải biết-->
+    <!--    anh DOM id từ button về rồi anh chỉnh giao diện , nếu giao diện là sáng thì sẽ thành tối va ngược lại tối thành sáng-->
+    <div class="text-center">
+        <button type="button" id="btnSwitch" class="btn">Mode button</button>
+    </div>
+    <div class="container p-4" style="margin-left: 20em">
+        <!--Grid row-->
+        <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase" style="margin-left: 10px">Phở</h5>
+
+                <ul class="list-unstyled mb-0">
+                    <li>
+                        <a href="#section1" class=" btn">Home</a>
+                    </li>
+                    <li>
+                        <a href="#section2" class=" btn">tin tức</a>
+                    </li>
+                    <li>
+                        <a href="#section3" class=" btn">Chế biến</a>
+                    </li>
+                    <li>
+                        <a href="#section4" class=" btn">Biến tấu</a>
+                    </li>
+                    <li>
+                        <a href="#section5" class=" btn">Thực đơn</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Liên hệ</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class=" btn">+843456789</a>
+                    </li>
+                    <li>
+                        <a href="#!" class=" btn">Hà Nội</a>
+                    </li>
+                    <li>
+                        <a href="#!" class=" btn">email</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Nhóm 1</h5>
+
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="#!" class=" btn">Trần Đức Long</a>
+                    </li>
+                    <li>
+                        <a href="#!" class=" btn">Phạm Minh Phương</a>
+                    </li>
+                    <li>
+                        <a href="#!" class=" btn">Nguyễn Văn Luân</a>
+                    </li>
+
+
+                </ul>
+            </div>
+            <!--Grid column-->
+        </div>
+        <!--Grid row-->
+    </div>
+    <div class="footer-copyright text-center py-3">© 2023 Code:
+        <a href="#"> Nhóm 1</a>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2023 Copyright:
+        <a href="https://vi.wikipedia.org/wiki/Ph%E1%BB%9F"> Wikipedia</a>
+    </div>
+    <script src="static/js/bootstrap.js"></script>
+    <script src="static/js/main.js"></script>
+    <script>
+        function mode(a) {
+            document.getElementById(a).addEventListener('click', () => {
+                if (document.documentElement.getAttribute('data-bs-theme') === 'light') {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark')
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', 'light')
+                }
+            })
+        }
+
+        mode('btnSwitch')
+
+        function quantityPlus(a) {
+            let x = document.getElementById('quantity').value
+            x = Number(x) + 1
+            document.getElementById('quantity').value = x
+        }
+
+        function quantityMinus(a) {
+            let x = document.getElementById('quantity').value
+            x = Number(x) - 1
+            if (x < 0) {
+                x = 0
+                document.getElementById('quantity').value = x
+            }
+            document.getElementById('quantity').value = x
+        }
+    </script>
+
+</footer>
+</body>
+</html>
